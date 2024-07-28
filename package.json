@@ -9,8 +9,15 @@
         "apps/*",
         "packages/*"
     ],
+    "engines": {
+        "node": ">=20.0.0"
+    },
     "scripts": {
-        "dev": "yarn workspace main dev",
+        "start": "yarn workspace main start",
         "build": "yarn workspaces foreach --all run build"
+    },
+    "devDependencies": {
+        "eslint-import-resolver-alias": "^1.1.2",
+        "eslint-plugin-import": "^2.29.1"
     }
 }
