@@ -1,0 +1,3 @@
+[submodule "packages/supabase_authentication"]
+	path = packages/supabase_authentication
+	url = git@github.com:AntoineTrev/supabase_authentication.git

@@ -1,4 +1,16 @@
 {
-  "name": "party_game",
-  "packageManager": "yarn@4.3.1"
+    "name": "party_game",
+    "version": "1.0.0",
+    "repository": "https://github.com/AntoineTrev/party_game.git",
+    "author": "AntoineTrev <trevel.antoine@gmail.com>",
+    "packageManager": "yarn@4.3.1",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "yarn workspace main dev",
+        "build": "yarn workspaces foreach --all run build"
+    }
 }
