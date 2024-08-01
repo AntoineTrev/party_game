@@ -6,11 +6,11 @@
     "type": "module",
     "scripts": {
         "start": "vite",
-        "build": "vue-tsc -b && vite build",
+        "build": "vue-tsc --noEmit && vite build",
         "preview": "vite preview"
     },
     "dependencies": {
-        "supabase_authentication": "workspace:packages/supabase_authentication",
+        "supabase_authentication": "workspace:^",
         "vue": "^3.4.31"
     },
     "devDependencies": {
