@@ -14,7 +14,9 @@
     },
     "scripts": {
         "start": "yarn workspace main start",
-        "build": "yarn workspaces foreach --all run build"
+        "build": "yarn workspaces foreach --all run build",
+        "lint": "yarn workspaces foreach --all run lint",
+        "format": "yarn workspaces foreach --all run format"
     },
     "devDependencies": {
         "eslint-import-resolver-alias": "^1.1.2",
