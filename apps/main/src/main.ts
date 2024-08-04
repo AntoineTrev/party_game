@@ -55,13 +55,14 @@ const Noir = definePreset(Aura, {
     },
 })
 
+export const darkModeKey = 'toggle-dark-mode'
 const app = createApp(App)
 app.use(supabase_authentication, { register: false }) // put this in top of all app.use (override primevue unstyle for example)
 app.use(PrimeVue, {
     theme: {
         preset: Noir,
         options: {
-            darkModeSelector: '.toggle-dark-mode',
+            darkModeSelector: `.${darkModeKey}`,
         },
     },
 })
