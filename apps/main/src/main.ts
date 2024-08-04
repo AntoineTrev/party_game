@@ -4,6 +4,7 @@ import App from './App.vue'
 import PrimeVue from 'primevue/config'
 import { definePreset } from '@primevue/themes'
 import Aura from '@primevue/themes/aura'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import supabase_authentication from 'supabase_authentication'
 
 const Noir = definePreset(Aura, {
@@ -64,4 +65,5 @@ app.use(PrimeVue, {
         },
     },
 })
+app.component('FontAwesomeIcon', FontAwesomeIcon)
 app.mount('#app')
