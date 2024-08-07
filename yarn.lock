@@ -3081,7 +3081,7 @@ __metadata:
     typescript-eslint: "npm:^8.0.0"
     vite: "npm:^5.3.4"
     vite-plugin-dynamic-import: "npm:^1.5.0"
-    vue: "npm:^3.4.35"
+    vue: "npm:^3.4.36"
     vue-tsc: "npm:^2.0.24"
   languageName: unknown
   linkType: soft
@@ -3600,7 +3600,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"primevue@npm:*, primevue@npm:^4.0.4":
+"primevue@npm:^4.0.4":
   version: 4.0.4
   resolution: "primevue@npm:4.0.4"
   dependencies:
@@ -4089,17 +4089,17 @@ __metadata:
     eslint-plugin-vue: "npm:^9.27.0"
     globals: "npm:^15.9.0"
     prettier: "npm:^3.3.3"
-    primevue: "npm:*"
+    primevue: "npm:^4.0.4"
     typescript: "npm:^5.5.4"
     typescript-eslint: "npm:^8.0.0"
     unplugin-vue-define-options: "npm:^1.4.7"
     vite: "npm:^5.3.4"
     vite-plugin-dts: "npm:^4.0.0-beta.1"
-    vue: "npm:*"
+    vue: "npm:^3.4.36"
     vue-tsc: "npm:^2.0.24"
   peerDependencies:
-    primevue: "*"
-    vue: "*"
+    primevue: ^4.0.0
+    vue: ^3.0.0
   languageName: unknown
   linkType: soft
 
@@ -4399,8 +4399,8 @@ __metadata:
   linkType: hard
 
 "vite-plugin-dts@npm:^4.0.0-beta.1":
-  version: 4.0.0
-  resolution: "vite-plugin-dts@npm:4.0.0"
+  version: 4.0.1
+  resolution: "vite-plugin-dts@npm:4.0.1"
   dependencies:
     "@microsoft/api-extractor": "npm:7.47.4"
     "@rollup/pluginutils": "npm:^5.1.0"
@@ -4418,7 +4418,7 @@ __metadata:
   peerDependenciesMeta:
     vite:
       optional: true
-  checksum: 10c0/7f797f44e254fcee29010442da6d5a4f65add909fd560f626a8c1bbb65870e2330ab9a26d041dfb61f7ed9bac049fbf624cf04b8b56832c68393a5a1fb54c098
+  checksum: 10c0/b59858f413cafbcecf268343ac5c4337d6f6bcf5846e06d25c8dac6c8c6940d30d159222706aa593a54664b5e487ce5a6e58bcca50464d54005ffaef92d72f79
   languageName: node
   linkType: hard
 
@@ -4529,7 +4529,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:*, vue@npm:^3.4.35":
+"vue@npm:^3.4.36":
   version: 3.4.36
   resolution: "vue@npm:3.4.36"
   dependencies:

@@ -21,7 +21,7 @@
         "@vueuse/core": "^10.11.0",
         "primevue": "^4.0.4",
         "supabase_authentication": "workspace:^",
-        "vue": "^3.4.35"
+        "vue": "^3.4.36"
     },
     "devDependencies": {
         "@eslint/js": "^9.8.0",
